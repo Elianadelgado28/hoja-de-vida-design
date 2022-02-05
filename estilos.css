@@ -1,139 +1,145 @@
-@import url('<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&family=Oswald&family=Roboto:wght@300&display=swap" rel="stylesheet">');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  body {
-    background:#fff;
-    font-size: 14px;
-    line-height: 22px;
-    color: black;
-  }
-  
-  .bold {
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-  
-  .semi-bold {
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
-  .resume {
-    width: 800px;
-    height: auto;
-    display: flex;
-    margin: 50px auto;
-  }
-  
-  .resume .resume_left {
-    width: 280px;
-    background: #a2d5e6;
-  }
-  
-  .resume .resume_left .resume_profile {
-    width: 100%;
-    height: 280px;
-  }
-  
-  .resume .resume_left .resume_profile img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .resume .resume_left .resume_content {
-    padding: 0 25px;
-  }
-  
-  .resume .title {
-    margin-bottom: 20px;
-  }
-  
-  .resume .resume_left .bold {
-    color: #fff;
-  }
-  
-  .resume .resume_left .regular {
-    color: #ec7ae7;
-  }
-  
-  .resume .resume_item {
-    padding: 25px 0;
-    border-bottom: 2px solid #ec7ae7;
-  }
-  
-  .resume .resume_left .resume_item:last-child,
-  .resume .resume_right .resume_item:last-child {
-    border-bottom: 0px;
-  }
-  
-  .resume .resume_left ul li {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-  }
-  
-  .resume .resume_left ul li:last-child {
-    margin-bottom: 0;
-  }
-  
-  .resume .resume_left ul li .icon {
-    width: 35px;
-    height: 35px;
-    background: #fff;
-    color: #ec7ae7;
-    border-radius: 50%;
-    margin-right: 15px;
-    font-size: 16px;
-    position: relative;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: white;
+  font-size: 14px;
+  line-height: 22px;
+  color: black;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: #a5e6f1;
+}
+
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+.resume .resume_left .regular {
+  color: #e9aacf;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #eec4dc;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: white;
+  color: #fcc0e3;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
 .resume .icon i,
 .resume .resume_right .resume_hobby ul li i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .resume .resume_left ul li .data {
-    color: #ec7ae7;
-  }
-   
-  .resume .resume_left .resume_skills ul li {
-    display: flex;
-    margin-bottom: 10px;
-    color: #ec7ae7;
-    /* justify-content: space-between; */
-    align-items: center;
-  } 
-   
-  .resume .resume_left .resume_skills ul li .skill_name {
-    width: 25%;
-  }
-  
-  .resume .resume_left .resume_skills ul li .skill_progress {
-    width: 60%;
-    margin: 0 5px;
-    height: 5px;
-    background: #f5daf3;
-    position: relative;
-  }
-  .resume .resume_left .resume_skills ul li .skill_per{
-      width: 15%;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-.resume .resume_left .resume_skills ul li .skill_progress span{
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-background: rgb(185, 2, 185);
-  }
+.resume .resume_left ul li .data {
+  color: #f04aab;
+}
+
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #dd8dbc;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #f04aab;
+  position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: white;
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
