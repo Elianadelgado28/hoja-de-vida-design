@@ -66,7 +66,7 @@ body {
 
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 2px solid #eec4dc;
+  border-bottom: 2px solid #e62391;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -88,7 +88,7 @@ body {
   width: 35px;
   height: 35px;
   background: white;
-  color: #fcc0e3;
+  color: #fa6ec0;
   border-radius: 50%;
   margin-right: 15px;
   font-size: 16px;
@@ -104,7 +104,7 @@ body {
 }
 
 .resume .resume_left ul li .data {
-  color: #f04aab;
+  color: #c50776;
 }
 
 .resume .resume_left .resume_skills ul li {
