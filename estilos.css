@@ -139,7 +139,6 @@ body {
   background: white;
 }
 
-.resume .resume_left .resume_social .semi-bold {
-  color: #fff;
-  margin-bottom: 3px;
+.resume .resume_right{
+  width: 520px;
 }
