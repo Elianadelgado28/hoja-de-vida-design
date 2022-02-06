@@ -154,3 +154,88 @@ body {
 padding-left: 40px;
 overflow: hidden;
 }
+
+
+.resume .resume_right ul li{
+  position: relative;
+}
+
+.resume .resume_right ul li .date{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info{
+  margin-bottom: 20px;
+}
+
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #e62391;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #e62391;
+}
+
+
+.resume .resume_right .resume_hobby ul{
+display: flex;
+justify-content: space-between;
+
+}
+
+.resume .resume_right .resume_hobby ul li{
+  width: 80px;
+  height: 80px;
+  border:2px solid #e62391;
+  border-radius: 50%;
+  position: relative;
+  color: #a5e6f1;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background:#e62391;
+
+}
+
+.resume .resume_right .resume_hobby ul li:last-child::before{
+display: none;
+}
+
+@media screen and (max-width: 576px){
+  .resume{
+   flex-direction: column;
+  }
+
+}
