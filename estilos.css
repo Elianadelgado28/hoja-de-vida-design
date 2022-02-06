@@ -9,7 +9,7 @@
 }
 
 body {
-  background: white;
+  background: #e9aacf;
   font-size: 14px;
   line-height: 22px;
   color: black;
@@ -141,4 +141,16 @@ body {
 
 .resume .resume_right{
   width: 520px;
+  background:#fff;
+  padding: 25px;
+}
+
+.resume .resume_right .bold{
+  color:#c50776;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul{
+padding-left: 40px;
+overflow: hidden;
 }
