@@ -160,16 +160,15 @@ overflow: hidden;
   position: relative;
 }
 
-.resume .resume_right ul li .date{
+.resume .resume_right ul li .date {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.resume .resume_right ul li .info{
+.resume .resume_right ul li .info {
   margin-bottom: 20px;
 }
-
 
 .resume .resume_right ul li:last-child .info {
   margin-bottom: 0;
@@ -238,4 +237,4 @@ display: none;
    flex-direction: column;
   }
 
-}
+} 
