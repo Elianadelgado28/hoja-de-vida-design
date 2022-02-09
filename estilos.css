@@ -236,5 +236,14 @@ display: none;
   .resume{
    flex-direction: column;
   }
+}
 
-} 
+
+@media screen and (max-width: 576px){
+  .resume .resume_left 
+  
+  
+  {
+   flex-direction: column;
+  }
+}
